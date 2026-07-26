@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Control de Medicamentos - Tu Salud al Día</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, sans-serif; background: #0F0C1E; color: #E0E0E0; line-height: 1.6; }
+  header { background: linear-gradient(135deg, #1A1535, #2A1F5E); padding: 80px 20px; text-align: center; border-bottom: 3px solid #7C4DFF; }
+  header h1 { font-size: 2.8em; color: #fff; margin-bottom: 15px; }
+  header p { color: #B0B0C0; font-size: 1.2em; max-width: 600px; margin: 0 auto 30px auto; }
+  .btn-principal { background: #7C4DFF; color: #fff; padding: 15px 30px; text-decoration: none; font-size: 1.1em; border-radius: 8px; font-weight: bold; display: inline-block; transition: background 0.3s; border: none; cursor: pointer; }
+  .btn-principal:hover { background: #9575FF; }
+
+  .contenedor { max-width: 1000px; margin: 0 auto; padding: 60px 20px; }
+  .seccion { text-align: center; margin-bottom: 60px; }
+  .seccion h2 { color: #C5B3FF; font-size: 2em; margin-bottom: 20px; }
+
+  .galeria { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px; }
+  .mockup { background: #120F26; border: 1px solid #2E2755; width: 250px; height: 500px; border-radius: 20px; display: flex; align-items: center; justify-content: center; color: #555; }
+
+  .beneficios { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; text-align: left; margin-top: 40px; }
+  .tarjeta-beneficio { background: #1A1535; padding: 30px; border-radius: 12px; border-left: 5px solid #7C4DFF; }
+  .tarjeta-beneficio h3 { color: #fff; margin-bottom: 10px; }
+
+  .precio-caja { background: #1A1535; border: 2px solid #7C4DFF; border-radius: 15px; padding: 50px 30px; max-width: 500px; margin: 0 auto; text-align: center; }
+  .precio-caja h3 { font-size: 3em; color: #fff; margin: 20px 0; }
+  .precio-caja p { color: #B0B0C0; margin-bottom: 30px; }
+
+  footer { text-align: center; background: #120F26; padding: 30px 20px; border-top: 1px solid #2E2755; }
+  footer a { color: #82B1FF; text-decoration: none; margin: 0 10px; }
+  footer a:hover { text-decoration: underline; color: #fff; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Control de Medicamentos</h1>
+  <p>El gestor inteligente y autónomo para tu inventario, recordatorios y métricas de salud familiares.</p>
+  <a href="#precio" class="btn-principal">Inicia tu prueba de 180 días</a>
+</header>
+
+<div class="contenedor">
+
+  <div class="seccion">
+    <h2>Tu salud, siempre a mano</h2>
+    <p>Diseñado para ser seguro, rápido y funcionar completamente sin conexión a internet.</p>
+    <div class="galeria">
+      <!-- Reemplazar estos divs con etiquetas <img> reales de la aplicación -->
+      <div class="mockup">[Captura Pantalla 1]</div>
+      <div class="mockup">[Captura Pantalla 2]</div>
+      <div class="mockup">[Captura Pantalla 3]</div>
+    </div>
+  </div>
+
+  <div class="seccion">
+    <h2>Características Principales</h2>
+    <div class="beneficios">
+      <div class="tarjeta-beneficio">
+        <h3>Inventario Digital</h3>
+        <p>Control exacto de las medicinas en casa. Alertas de stock bajo para que nunca te falte una dosis.</p>
+      </div>
+      <div class="tarjeta-beneficio">
+        <h3>Historial Médico Real</h3>
+        <p>Registro inmutable de tomas y signos vitales, listo para exportar y presentar a tu médico.</p>
+      </div>
+      <div class="tarjeta-beneficio">
+        <h3>Protección Familiar</h3>
+        <p>Múltiples perfiles en un solo dispositivo, incluyendo un avanzado sistema de detección de caídas.</p>
+      </div>
+    </div>
+    <br><br>
+    <a href="catalogo_funciones.html" style="color: #82B1FF;">Ver el catálogo completo de funciones &rarr;</a>
+  </div>
+
+  <div class="seccion" id="precio">
+    <div class="precio-caja">
+      <h2>Licencia Anual</h2>
+      <h3>$39.00 <span style="font-size: 0.4em; color: #B0B0C0;">USD / año</span></h3>
+      <p>Descarga la aplicación y disfruta de todas las funciones premium sin restricciones durante 180 días. Sin necesidad de ingresar tarjetas de crédito.</p>
+      <button class="btn-principal" onclick="alert('Enlace de pago de Paddle se integrará aquí')">Comprar Licencia Oficial</button>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p style="margin-bottom: 15px; color: #555;">© 2026 G7-Enterprise. Todos los derechos reservados.</p>
+  <a href="https://g7-enterprise.github.io/politica-privacidad-control-rutinas/">Política de Privacidad</a>
+  <a href="mailto:tu-correo@ejemplo.com">Soporte Técnico</a>
+</footer>
+
+</body>
+</html>
